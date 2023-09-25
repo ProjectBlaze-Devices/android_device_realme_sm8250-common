@@ -38,7 +38,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
-    audio.usb.default
+    audio.usb.default \
+    libldacBT_abr \
+    libldacBT_bco \
+    libldacBT_enc
 
 PRODUCT_PACKAGES += \
     libaudiopreprocessing \
